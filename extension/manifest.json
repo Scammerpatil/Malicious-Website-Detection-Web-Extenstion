@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "NovaCop",
+  "version": "0.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png",
+    "default_title": "NovaCop"
+  },
+  "description": "Empower your browsing security with our extension: a vigilant guardian against malicious websites, keeping you safe online.gi",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "32": "icon.png",
+    "128": "icon.png"
+  },
+  "author": "NovaCop",
+  "permissions": ["activeTab","tabs"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; "
+  }
+}

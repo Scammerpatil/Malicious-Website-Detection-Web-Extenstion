@@ -1,0 +1,5 @@
+.vscode/settings.json
+venv/
+test/__pycache__/
+test/features_extraction.pyc
+test/patterns.pyc
