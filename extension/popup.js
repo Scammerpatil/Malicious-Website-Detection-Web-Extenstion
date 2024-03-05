@@ -48,11 +48,6 @@ function transfer() {
             // Close the malicious tab
             chrome.tabs.remove(tabs[0].id);
           }, 1000);
-        } else if (responseText.status == 500) {
-          loader.style.display = "none";
-          document.getElementById("div1").style.display = "block";
-          document.getElementById("div1").innerText = "Internal Server Error";
-          document.getElementById("div1").style.color = "#85FFC7";
         } else {
           loader.style.display = "none";
           document.getElementById("div1").style.display = "block";

@@ -4,3 +4,7 @@ test/__pycache__/
 test/features_extraction.pyc
 test/patterns.pyc
 test/node_modules/
+
+run.sh
+extenstion
+env
