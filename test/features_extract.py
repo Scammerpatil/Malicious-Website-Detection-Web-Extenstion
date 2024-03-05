@@ -500,5 +500,5 @@ class FeatureExtraction:
 # load model from file
 # full_model_path = "D:\\NovaCop Phishing Extenstion\\models\\MLPClassifier.pickle.dat"
 full_model_path = os.path.dirname(
-    os.path.realpath(__file__)) + "\\models\\MLPClassifier.pickle.dat"
+    os.path.realpath(__file__)) + "/models/MLPClassifier.pickle.dat"
 loaded_model = pickle.load(open(full_model_path, "rb"))
